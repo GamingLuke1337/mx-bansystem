@@ -5,6 +5,6 @@ server_only 'yes'
 
 server_scripts {
      'config.lua',
-     '@mysql-async/lib/MySQL.lua',
+     '@oxmysql/lib/MySQL.lua',
      'server.lua'
 }
